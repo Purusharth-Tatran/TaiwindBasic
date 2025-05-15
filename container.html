@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Container with tailwind</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+    <div class="bg-amber-300  container mx-auto text-2xl ">Container Class</div>
+    <div class="bg-black text-white [&>*]:flex container mx-auto">
+        <ul>
+            <li ><a class="p-2" href="">Home</a></li>
+            <li ><a  class="p-2" href="">News</a></li>
+            <li ><a class="p-2" href="">About</a></li>
+            <li ><a class="p-2" href="">Contact</a></li>
+        </ul>
+    </div>
+</body>
+</html>

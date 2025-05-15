@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+@import "tailwindcss";
+/* @theme { */
+/* --breakpoint-sm: 600px;
+    --padding-10: 200px;
+    --padding-1: 100px;
+    --padding-c-2: 50px;
+    --padding-wrapper: 10px;
+    --margin-10: 200px;
+    --height-c-50: 50px;
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer base{
+    h1{
+    font-size: 50px;
+    background-color: aquamarine;
+    }
+     h2{
+    font-size: 40px;
+    background-color: windowsblue;
+    }
+     h3{
+    font-size: 30px;
+    background-color: aqua;
+    }
+    button{
+        font-size: 30px;
+        margin-top: 10px;
+        border: 3px solid red;
+        border-radius: 5px;
+    }
+} */
+
+/* @layer base{
+    h1{
+        @apply text-3xl font-bold;
+    }
+     h2{
+        @apply text-4xl font-bold;
+    }
+     h3{
+        @apply text-6xl font-bold;
+    }
+    button{
+        @apply border-3;
+        @apply p-3;
+        @apply rounded-lg;
+        @apply bg-blue-500;
+    }
+} */
+
+/* @layer components{
+    .btn{
+        @apply bg-blue-500;
+        @apply text-white;
+        @apply font-bold;
+        @apply py-2;
+        @apply px-4;
+        @apply rounded;
+        @apply hover:bg-blue-700;
+    }
+    .btn-primary{
+        @apply bg-blue-700;
+    }
+    .btn-secondary{
+        @apply bg-gray-500;
+    }
+} */
+
+/* @layer components {
+  .btn {
+    @apply border border-blue-400 px-5 py-1.5 rounded hover:bg-blue-600;
+  }
+  .btn-primary {
+    @apply bg-blue-500 text-white  hover:bg-blue-700  border-blue-400;
+  }
+  .btn-secondary {
+    @apply bg-gray-500 text-white hover:bg-gray-700  border-blue-400;
+  }
+  .btn-success {
+    @apply bg-green-500 text-white hover:bg-green-700  border-green-400;
+  }
+  .btn-dark {
+    @apply bg-slate-500 text-white  hover:bg-black  border-black;
+  }
+  .btn-info {
+    @apply bg-amber-500 text-white  hover:bg-amber-700  border-amber-400;
+  }
+  .btn-danger {
+    @apply bg-red-500 text-white  hover:bg-red-700  border-red-400;
+  }
+  .btn-warning {
+    @apply bg-yellow-500 text-white  hover:bg-yellow-700  border-yellow-400;
+  }
+  .btn-light {
+    @apply bg-white text-black  hover:bg-pink-200  border-pink-200;
+  }
+  .btn-basic {
+    @apply bg-cyan-500 text-white  hover:bg-cyan-700  border-cyan-400;
+  }
+} */
+
+/* .custom-container {
+  @apply bg-green-500 ;
+  @apply h: theme('spacing.200');
+} */
+
+
+/* @layer components{
+  .w-100{
+    @apply w-100 h-40 rounded border-2 border-red-400 hover:border-2 hover:border-red-200 hover:scale-110 transition duration-1000  hover:brightness-125
+  }
+} */
+@theme{
+  --font-moon-dance: 'Moon Dance', cursive;
+}
